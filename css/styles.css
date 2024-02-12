@@ -4,28 +4,39 @@ ol {
 }
 a {
   text-decoration: none;
+  color: inherit;
 }
 body {
   font-family: Roboto, sans-serif;
   color: #434455;
-  background-color: #fff;
+  background-color: #ffffff;
 }
-button {
-  cursor: pointer;
-}
-.button:hover {
+.order {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #fff;
+  color: #ffffff;
+  text-align: center;
+  cursor: pointer;
+  cursor: pointer;
+  background-color: #4d5ae5;
 }
-.button {
-  background: #4d5ae5;
+.order:hover,
+:focus {
+  background-color: #404bbf;
 }
 
 img {
   display: block;
+}
+
+/* body */
+
+.page-header {
+}
+.page-nav {
 }
 
 .logo {
@@ -51,7 +62,12 @@ img {
 .nav-link:focus {
   color: #404bbf;
 }
-.address {
+.nav-list {
+}
+.nav-list-item {
+}
+
+.address-list {
   font-style: normal;
 }
 .adress-link {
@@ -63,4 +79,77 @@ img {
 .adress-link:hover,
 .adress-link:focus {
   color: #404bbf;
+}
+
+/* main */
+
+/* first section */
+
+.first-section {
+  background-color: #2e2f42;
+  text-align: center;
+}
+.page-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #ffffff;
+}
+
+/* second section */
+
+.second-section {
+}
+.second-header {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+  color: #2e2f42;
+}
+.third-header {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* third section */
+.third-section {
+  background-color: #f4f4fd;
+}
+
+/* footer */
+
+.down-bar {
+  background-color: #2e2f42;
+}
+.ftr-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.ftr-studio {
+  color: #f4f4fd;
+}
+.ftr-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
